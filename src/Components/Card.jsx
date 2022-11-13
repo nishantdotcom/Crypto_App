@@ -31,9 +31,9 @@ class Card extends Component {
     return (
       <div>
         Hello {this.state.Lists.length}
-        {/* {Lists.map((list) => {
+        {Lists.map((list) => {
           return <div key={list.id}> {list.id}</div>;
-        })} */}
+        })}
       </div>
     );
   }
